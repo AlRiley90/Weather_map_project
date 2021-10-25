@@ -8,7 +8,7 @@ var map = new mapboxgl.Map (
         center: [-98.4861, 29.4252]
 
     });
-//Nav control
+//Nav control - hello this is ken
 var nav = new mapboxgl.NavigationControl();
 map.addControl(nav, 'top-left');
 var button = document.getElementById("searchButton")
